@@ -1,0 +1,100 @@
+.auto-style1 {
+    width: 100%;
+}
+
+.auto-style2 {
+    width: 57px;
+}
+
+.menu {
+    font-size: 20px;
+    float: right;
+    z-index: 9999;
+    margin-top: -70px
+}
+
+#Button1 {
+    font-size: 17px
+}
+.modal_menu {
+    display: none;
+    position: fixed;
+    background: rgba(128, 128, 128, 0.44);
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index:999;
+}
+    .modal_menu>div {
+        height: 500px;
+        width: 350px;
+        background:rgb(255, 255, 255);
+        margin-top:-180px;
+        border-radius:10px
+    }
+.fa {
+    padding:5px;
+}
+a {
+    font-size:18px
+}
+strong {
+    font-size: 25px;
+}
+.panel-body {
+    height:85%;
+    overflow:auto;
+}
+@media only screen and (max-width:700px) {
+    .modal_menu>div {
+        height: 90%;
+        width: 90%;
+        margin-top: 0;
+    }
+}
+
+
+.rotate {
+    -webkit-animation: 2s rotate linear infinite;
+    animation: 2s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    margin-right: 10px;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(660deg);
+    }
+  }
+  
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(.2)
+    }
+  
+    to {
+        -webkit-transform: scale(1)
+    }
+  }
+  
+  @keyframes animatezoom {
+    from {
+        transform: scale(.2)
+    }
+  
+    to {
+        transform: scale(1)
+    }
+  }
